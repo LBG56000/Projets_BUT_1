@@ -1,0 +1,41 @@
+13/12/2023
+  Prise en compte globale du travail a faire :
+  - Titouan : Commence le PHP
+  - Léo : révision du Docker
+  - Baptiste : Recherche sur le PHP
+  - Enzo : Finit la ressource SAE 3 et crée des livrables
+
+18/12/2023
+  Titouan : Fait le php pour la documentation thecnique 33%
+  Léo : Fait le php pour html -> pdf 33%
+  Enzo : Fait aide 20%
+  Baptiste : Absent 0%
+
+20/12/2023
+  Titouan : Fait le php pour la documentation thecnique 25%
+  Léo : Fait le bash 25%
+  Enzo : Aide 25%
+  Baptiste : Fait le php pour la documentation utilisateur 25%
+
+Avancement entre
+  Titouan : Finalise la documentation technique
+  Baptiste : Avance la documentaition untilisateur
+  Léo : Avance sur Docker/bash
+  Enzo : Aide dans les projets
+
+10/01/2024
+  Titouan : Aide les autres menbres du groupe 25%
+  Léo : Avance sur Docker 25%
+  Enzo : Avance dans les tâches anexes et aide les autes 25%
+  Baptiste : Avance la documentaition untilisateur 25%
+
+17/01/2024
+  Baptiste/Léo Finalise le bash.
+
+20/01/2024
+  Baptiste fini le bash
+  Problèmes de communication de avec les menbres de notre équipe
+
+
+21/01/2024 
+  Le rendu final n'est pas achevé suite à des problèmes de communication de notres équipe

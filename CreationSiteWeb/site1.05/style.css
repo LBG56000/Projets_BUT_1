@@ -1,0 +1,438 @@
+/*Definition des blocs principaux communs à toutes les pages*/
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1E1E1E;
+    font-family: 'latobold';
+    /* width: 95em; */
+}
+
+
+header {
+    background-color: #6633C6;
+    width: 90%;
+    margin: auto;
+}
+
+header>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    background-color: #222222;
+    margin: auto;
+    width: 90%;
+
+}
+
+h1,
+h2,
+.buton {
+    font-family: 'josefin_sansbold';
+}
+
+h1 {
+    font-size: 4em;
+    color: #D0A0FF;
+}
+
+h2 {
+    font-size: 3.5em;
+    color: #D0A0FF;
+}
+
+p,
+pre,
+form {
+    color: #D0A0FF;
+    font-family: 'latobold';
+    font-size: 1.5em;
+    margin: 0 4em 2em 4em;
+}
+
+section>article {
+    margin-left: 2em;
+}
+
+@font-face {
+    /*Titres*/
+    font-family: 'josefin_sansbold';
+    src: url(polices/JosefinSansBold/josefinsans-bold-webfont.woff2) format('woff2'),
+        url(polices/JosefinSansBold/josefinsans-bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    /**Paragraphe*/
+
+    font-family: 'latobold';
+    src: url(polices/LatoBold/lato-bold-webfont.woff2) format('woff2'),
+        url(polices/LatoBold/lato-bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+aside>a {
+    border-radius: 200px;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 4%;
+    top: 20em;
+    right: 0;
+    background-color: #6633C6;
+    border-radius: 25px 0 0 25px;
+    padding: 12px 10px;
+}
+
+footer {
+    background-color: #6633C6;
+    color: #ebedff;
+    text-align: center;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+footer>div {
+    margin: auto;
+    margin-right: 2em;
+}
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #D0A0FF;
+    text-decoration: none;
+    color: #1E1E1E;
+    font-size: 1.9em;
+    text-decoration: none;
+}
+
+li>a {
+    text-decoration: none;
+}
+
+a:active {
+    color: #6633C6;
+}
+
+figcaption {
+    color: #EBEDFF;
+    font-size: 2em;
+}
+
+section>#serie {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+article>div {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+article>figure {
+    display: flex;
+    flex-direction: column;
+    background-color: #662B8C;
+    text-align: center;
+    padding: 20px;
+}
+
+#video {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+#video>pre {
+    margin-top: auto;
+}
+
+.buton {
+    position: relative;
+    left: 50em;
+    top: 5em;
+    background-color: #f2cb05;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+.buton:active {
+    background-color: #8bc633;
+}
+
+#films {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+form>input {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#episodes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 2em 0;
+
+}
+
+#episodes>figure {
+    margin-top: 3em;
+}
+
+#episodes>figcaption {
+    background-color: #f2cb05;
+    padding: 30px;
+}
+
+#bandeScooby {
+    display: flex;
+    justify-content: center;
+}
+
+#bandeScooby>img {
+    margin-top: 3em;
+    width: 90%;
+}
+
+#page2garde {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 920px) {
+
+    #reste {
+        display: flex;
+        align-self: center;
+    }
+
+    nav {
+        display: none;
+    }
+    .sidenav {
+        display: block;
+    }
+    .disparait {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+   
+
+}
+@media screen and (min-width: 921px) {
+    .sidenav {
+        display: none;
+    }
+    #openBtn {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 1280px) {
+    aside {
+        display: none;
+    }
+
+
+
+    #page2garde>figure {
+        display: none;
+    }
+
+    #page2garde {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+#reseauxNous {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+#affciheSerie {
+    margin: auto;
+    background-color: #6633c6;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    width: 45em;
+    text-align: left;
+    padding: 10px;
+}
+
+#affciheSerie>p {
+    margin-top: 4em;
+}
+
+#saison1 {
+    margin-top: 2em ;
+}
+
+#critiqueEnvoie {
+    background-color: #8bc633;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 4px;
+    text-decoration: none;
+    display: flex;
+    justify-self: center;
+}
+
+#formCritique {
+}
+
+#formCritique>div {
+    margin: auto;
+    margin-right: 8em;
+    text-align: left;
+}
+
+#formCritique>div>a {
+    margin-left: 8em;
+}
+
+#nouConnaitre {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    color: white;
+}
+
+#perso figure figcaption {
+    text-align: center;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #1E1E1E;
+    padding-top: 60px;
+    transition: right 0.5s ease;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Sidenav menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rebeccapurple;
+    display: block;
+    transition: 0.3s;
+  }
+
+  /* Active class */
+  .sidenav.active {
+    display: block;
+    left: 0;
+  }
+  .sidenav {
+    display: none;
+  }
+  .sidenav.active ul {
+    flex-direction: column;
+  }
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  .burger-icon {
+    position: fixed;
+    top: 5%;
+    right: 5%; /* Adjust the values as needed */
+    cursor: pointer;
+}
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: yellow;
+    margin: 6px 0;
+}
+
+#perso {
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 920px) {
+    #perso {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+#serie {
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 920px) {
+    #serie {
+       flex-direction: column;
+       align-items: center;
+    }
+}
+
